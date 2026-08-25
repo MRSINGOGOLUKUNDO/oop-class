@@ -12,11 +12,12 @@ class Person {
     }
 }
 
-public class HelloWorld {
+public class OOP {
     public static void main(String[] args) {
         Person[] people = {
                 new Person("Ben", 10),
-                new Person("Mary", 6)
+                new Person("Mary", 6),
+                new Person("Chitalu", 18 )
         };
 
         for (Person p : people) {
