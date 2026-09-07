@@ -17,6 +17,13 @@ public class MemoryDemo {
         System.out.println("acc1: " + acc1.balance);
         System.out.println("acc2: " + acc2.balance);
 
+        BankAccount acc3 = null;
+        if (acc3 != null) {
+            System.out.println(acc3.balance);
+        } else {
+            System.out.println("Account not found");
+        }
+
 
     }
     public static void applyBonusToAccount(BankAccount acc) {
