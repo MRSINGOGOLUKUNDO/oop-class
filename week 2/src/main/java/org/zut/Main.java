@@ -1,7 +1,7 @@
 package org.zut;
 
 public class Main {
-    static void main() {
+   public static void main() {
 
         BankAccount lukundosAcount = new BankAccount();
         lukundosAcount.accountHolder = "Lukundo";
