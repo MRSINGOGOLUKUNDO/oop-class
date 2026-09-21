@@ -4,6 +4,7 @@ public class Main {
    public static void main() {
 
         BankAccount lukundosAcount = new BankAccount();
+
         lukundosAcount.accountHolder = "Lukundo";
         lukundosAcount.balance = 100;
 
